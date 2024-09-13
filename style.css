@@ -1,0 +1,34 @@
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+li{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight:bold;
+    border: 2px solid transparent;
+    color: lightgreen !important;
+}
+.nav-link:hover{
+    border-bottom: 2px  solid tomato;
+    transition: .1s;
+}
+
+
+
+.image img,h2{
+    padding: 10px;
+    color: red !important;
+}
